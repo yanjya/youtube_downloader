@@ -6,7 +6,7 @@ authors = ["jie <yanjya2@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 streamlit = "^1.33.0"
 pandas = "^2.2.1"
 pytube = "^15.0.0"
