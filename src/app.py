@@ -31,10 +31,9 @@ def main():
         file_data_encoded = base64.b64encode(file_data).decode()
         
         # 提供下載連結
+        st.markdown(f'<a href="data:file/txt;base64,{file_data_encoded}" download="{stream.default_filename}">Download {stream.default_filename}</a>', unsafe_allow_html=True)
+        st.write(f'Klick Download ☝️ ')
         video_name.empty()
         loading_text.empty()
-        st.write(f'Klick Download link👇 ')
-        st.markdown(f'<a href="data:file/txt;base64,{file_data_encoded}" download="{stream.default_filename}">Download {stream.default_filename}</a>', unsafe_allow_html=True)
-
 if __name__ == '__main__':
     main()
