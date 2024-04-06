@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "youtube-downloader"
+version = "0.1.0"
+description = ""
+authors = ["jie <yanjya2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.33.0"
+pandas = "^2.2.1"
+pytube = "^15.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
